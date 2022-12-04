@@ -4,26 +4,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>com.neko233</groupId>
     <artifactId>neko233-external-tools</artifactId>
     <version>1.0.0</version>
 
 
     <properties>
-        <java.version>8</java.version>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <gpg.executable>gpg</gpg.executable>
+        <java.version>11</java.version>
 
         <github.global.server>github</github.global.server>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <gpg.executable>gpg</gpg.executable>
 
         <!-- versions -->
         <lombok.version>1.18.24</lombok.version>
         <slf4j-api.version>1.7.36</slf4j-api.version>
     </properties>
+
 
     <name>neko233-external-tools</name>
     <url>https://github.com/SolarisNeko/neko233-external-tools/tree/main</url>
